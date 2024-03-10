@@ -1,0 +1,39 @@
+let age = 123456789;
+let course = "typeScript";
+let is_publiched = true;
+// any
+let anynumber;
+anynumber = 1;
+anynumber = "asd";
+//
+// function render(document) {
+// 	console.log(document);
+// }
+// arrays
+let numbers = [
+	{ name: "umesh", age: 20, sex: "m" },
+	{ name: "greeshma", age: 18, sex: "f" },
+];
+numbers.forEach((n) => n.age);
+// tuples
+let user: [number, string] = [20, "umesh"];
+user[1].length;
+user.push("sri");
+user.push("satya");
+user.push("ambica");
+user.push("prasad");
+user.push("penkey");
+// enums
+// list of related constants
+// const small = 28;
+// const medium = 32;
+// const large = 34;
+
+// //ParscalCase
+enum Sizes {
+	Small,
+	Medium,
+	Large,
+}
+let mySize: Sizes = Sizes.Medium;
+console.log(mySize);
